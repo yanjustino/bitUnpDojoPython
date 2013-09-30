@@ -19,4 +19,6 @@ def jokenpo(jogo_1, jogo_2):
     if (jogo_1, jogo_2) in situacoes_perde:
         return 'perde'
 
-    return 'empate'
+print jokenpo('pedra', 'pedra')
+print jokenpo('pedra', 'tesoura')
+print jokenpo('tesoura', 'pedra')
