@@ -9,8 +9,8 @@ def jokenpo(jogo_1, jogo_2):
         ('tesoura', 'papel')
     ]
 
-    situacoes_perde = [(jogo_2, jogo_1) 
-                        for jogo_1, jogo_2
+    situacoes_perde = [(jogo2, jogo1)
+                        for jogo1, jogo2
                         in situacoes_ganha]
 
     if (jogo_1, jogo_2) in situacoes_ganha:
